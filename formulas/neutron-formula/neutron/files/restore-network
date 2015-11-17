@@ -1,0 +1,8 @@
+#!/bin/bash
+{% from "neutron/vars.sls" import ext_nic %}
+
+ifdown {{ ext_nic }}
+ifdown br-ex
+ifup br-ex
+ifup {{ ext_nic }}
+#ip route add default via 192.168.1.1

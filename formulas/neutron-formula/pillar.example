@@ -1,0 +1,17 @@
+neutron:
+  NEUTRON_DBPASS: neutron-db-pw
+  NEUTRON_PASS: neutron-pw
+  METADATA_SECRET: METADATA_SECRET
+
+  ext_nic: eth0
+
+  ext_net:
+    gateway: 192.168.1.1
+    cidr: 192.168.1.0/24
+    pool:
+      start: 192.168.1.130
+      end: 192.168.1.140
+
+  demo_net:
+    gateway: 10.0.1.1
+    cidr: 10.0.1.0/24

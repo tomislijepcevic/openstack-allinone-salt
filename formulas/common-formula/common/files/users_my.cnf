@@ -1,0 +1,5 @@
+{% import "common/vars.sls" as common with context %}
+
+[client]
+user=root
+password={{ common.mysql_root_password }}

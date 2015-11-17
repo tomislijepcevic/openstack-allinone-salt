@@ -1,0 +1,5 @@
+openstack:
+  common:
+    mysql_root_password: foobar
+    ip: grains.get('ip_interfaces:eth0')[0]
+

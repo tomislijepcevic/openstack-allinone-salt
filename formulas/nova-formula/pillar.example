@@ -1,0 +1,4 @@
+openstack:
+  nova:
+    NOVA_DBPASS: nova-db-pw
+    NOVA_PASS: nova-pw

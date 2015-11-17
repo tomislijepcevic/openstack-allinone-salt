@@ -1,0 +1,4 @@
+openstack:
+  glance:
+    GLANCE_DBPASS: glance-db-pw
+    GLANCE_PASS: glance-pw

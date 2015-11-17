@@ -1,0 +1,9 @@
+{% from "neutron/vars.sls" import ext_nic, ext_nic_mac %}
+DEVICE={{ ext_nic }}
+DEVICETYPE=ovs
+TYPE=OVSPort
+OVS_BRIDGE=br-ex
+ONBOOT=yes
+NM_CONTROLLED=no
+
+HWADDR={{ ext_nic_mac }}

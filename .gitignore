@@ -1,0 +1,10 @@
+documents/
+.DS_Store
+sync.sh
+/common/
+/keystone/
+/glance/
+/nova/
+/neutron/
+/cinder/
+/horizon/

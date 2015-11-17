@@ -1,0 +1,12 @@
+openstack:
+  keystone:
+    ADMIN_TOKEN: ADMIN_TOKEN
+    KEYSTONE_DBPASS: keystone-db-pw
+
+    admin_user:
+      password: admin-pw
+      email: tomi.slijepcevic@gmail.com
+
+    demo_user:
+      password: demo-pw
+      email: demo@gmail.com

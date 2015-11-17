@@ -1,0 +1,5 @@
+openstack:
+  cinder:
+    CINDER_DBPASS: cinder-db-pw
+    CINDER_PASS: cinder-pw
+    CINDER_VOLUME: /dev/sdb

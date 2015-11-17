@@ -1,0 +1,11 @@
+[Unit]
+Description=A service that sets up Openstack Neutron
+After=network.service
+Requires=network.servic
+
+[Service]
+ExecStart=/root/restore-network
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
